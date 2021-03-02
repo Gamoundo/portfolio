@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #61dafb;
+  background-image: radial-gradient(circle, #5a39e9, #0072ff, #0090f3, #00a5d4, #00b5b7, #14c0ac, #41ca9a, #6bd284, #91dc8b, #b1e694, #ceefa1, #e8f9b0);
   min-height: 100vh;
   color: beige;
 }
@@ -21,7 +21,10 @@
   color: #61dafb;
 
 }
-
+.titles {
+  text-align: left;
+  color: salmon;
+}
 p:hover {
   color: beige;
 }
