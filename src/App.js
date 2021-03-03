@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
        <h2> Software Engineer</h2>
        <p className="kinda">kinda</p>
        <h2 className="titles">Projects</h2>
+       <Projects />
     </div>
   );
 }
