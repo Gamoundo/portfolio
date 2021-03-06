@@ -21,7 +21,7 @@ const displayApps = (array) => {
             <div className="project">
                 <h3> {element.name}</h3>
                 <p> {element.desc}</p>
-                <p> {element.link}</p>
+                <a href={element.link}> {element.name}'s website</a>
             </div>
         )
     }
