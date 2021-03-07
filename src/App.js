@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Projects from './Projects';
 import Bio from './Bio'
+import Code from './Code';
+import Tech from './Tech';
 
 function App() {
   return (
@@ -12,8 +14,11 @@ function App() {
        <h2 className="titles">Projects</h2>
        <Projects />
        <h2 className="titles"> Why Code?</h2>
-       <Bio />
+       <Code />
+       <h2 className="titles"> Technologies I know</h2>
+       <Tech />
        <h2 className="titles"> More about me</h2>
+
     </div>
   );
 }
