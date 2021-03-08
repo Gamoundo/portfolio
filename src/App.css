@@ -1,8 +1,16 @@
-.App {
+body {
   text-align: center;
-  background-image: radial-gradient(circle, #5a39e9, #0072ff, #0090f3, #00a5d4, #00b5b7, #14c0ac, #41ca9a, #6bd284, #91dc8b, #b1e694, #ceefa1, #e8f9b0);
-  min-height: 100vh;
+  background-image: linear-gradient(to left bottom, #c19ab4, #b688b1, #a877b0, #9368b2, #785bb5, #6668c6, #4a74d5, #0080e1, #00a3f3, #00c2f9, #00e0f7, #5ffbf1);
+  
+  min-height: 100%;
   color: beige;
+}
+
+.App {
+  background-image: radial-gradient(circle, #c19ab4, #b282b0, #9b6cb1, #785bb5, #3d4eba);
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  margin: 3rem;
 }
 
 .App-logo {
@@ -23,7 +31,7 @@
 }
 .titles {
   text-align: left;
-  color: yellow;
+  color: rgb(255, 115, 0);
 }
 p:hover {
   color: beige;
