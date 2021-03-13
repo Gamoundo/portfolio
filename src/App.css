@@ -53,12 +53,13 @@ p:hover {
   grid-template-columns: 1fr 1fr 1fr;
   border-radius: 5px;
   padding: 2px 8px;
+  color: yellow;
   
 }
 
 .Bio {
   text-align: left;
-  color: rgb(56, 56, 23);
+  color:rgb(228, 228, 60);
 
 }
 @keyframes App-logo-spin {

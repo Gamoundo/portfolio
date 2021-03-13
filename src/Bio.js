@@ -3,9 +3,10 @@ import React from 'react';
 function Bio() {
     return (
         <div className="Bio">
-            <p> The world of gaming is what got me into code. Technology is great and all that but gaming is what really grabs me.</p>
-            <p> Now that I am programming, I'm seeing the limitless potential for expression with coding.</p>
-            <p> I love that it is good for expression and solving problems. That it will always provide challenges.</p>
+            <img src="/20200515_161017.jpg" alt="Me" width="240" height="300"/>
+            <p> You already know I like video games, I'm also interested in the streaming services.</p>
+            <p> A job working on one of those things is one I believe will be exciting.</p>
+            <p> More importantly I want to be able to help connect people, with technology.</p>
         </div>
     )
 }
