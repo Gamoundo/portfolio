@@ -5,15 +5,15 @@ import React from 'react'
 const tech= [
     {
         name:"React",
-        image:"/React.png"
+        image:"./React.png"
     },
     {
         name:"Css",
-        image:"/Css.png"
+        image:"./Css.png"
     },
     {
         name:"Javascript",
-        image:"/javascript.png"
+        image:"./javascript.png"
     }
 ]
 
